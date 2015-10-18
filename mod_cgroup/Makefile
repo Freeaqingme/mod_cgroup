@@ -4,12 +4,11 @@
 ##
 
 builddir=.
-top_srcdir=/etc/httpd
-top_builddir=/usr/lib64/httpd
-include /usr/lib64/httpd/build/special.mk
+top_srcdir=/usr/share/apache2
+top_builddir=/usr/share/apache2
+include /usr/share/apache2/build/special.mk
 
 #   the used tools
-APXS=apxs
 APACHECTL=apachectl
 
 #   additional defines, includes and libraries
